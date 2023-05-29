@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #23242a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    /* background-color: #1c1c1c; */
+    min-width: 377px;
+    max-width: 500px;
+    border-radius: 5px;
+    /* background: rgb(130, 106, 251); */
+    border: 3px solid rgb(130, 106, 251);
+}
+h1{
+    font-size: 2.8rem;
+    text-align: center;
+    color:rgb(62, 210, 239);
+    margin:30px auto 30px auto;
+}
+
+/* .box{
+    display: flex;
+    flex-wrap: wrap;
+} */
+.sign{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.sign .User{
+    /* display: flex; */
+    /* background: transparent; */
+    margin-left: 28px; 
+    color: aliceblue;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 1.1rem;
+    cursor: text;
+    left: 0.9rem;
+    transition:0.1s ease-out;
+    pointer-events: none;
+    margin-bottom: 10px;
+}
+
+
+.sign input{
+    font-size: 1.1rem;
+    padding: 10px;
+    color: white;
+    outline: none;
+    margin-left:30px;
+    /* height: 35px; */
+    width: 280px;
+    background-color: transparent;
+    border: none;
+    border: 3px solid silver;
+    border-radius: 5px;
+    margin-bottom: 10px;
+   
+}
+
+.sign input:focus ~ .User, .sign input:not(:placeholder-shown) ~ .User{
+    transform: translateY(-25px);
+    font-size: 1.4rem;
+    width: 29%;
+    text-align: center;
+    /* background: #1c1c1c ; */
+    background: #23242a;
+    /* outline: 3px solid rgb(130, 106, 251); */
+    
+
+}
+.box3 ,a{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 15px;
+}
+button{
+    margin-left: 36px;
+    width: 80%;
+    height: 45px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .User:focus{
+    color: white;
+    font-size: 0.75rem;
+    transform: translateY(-35px);
+} */
+
+
+
+
+/* .sign input{
+    margin-left:30px;
+    height: 1px;
+    width: 280px;
+    background-color: rgb(62, 210, 239);
+    border: rgb(62, 210, 239);
+    transition: 1s;
+    
+}
+
+.sign input:hover{
+    width: 280px;
+    height: 39px;
+    border: 3px solid  ;
+    background-color: rgb(62, 210, 239);
+    border-radius: 5px ;
+    border: rgb(62, 210, 239);
+} */
+
